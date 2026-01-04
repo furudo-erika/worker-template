@@ -41,7 +41,8 @@ def load_model():
 
     from lightx2v import LightX2VPipeline
 
-    model_path = os.environ.get("MODEL_PATH", "/models/wan2.1-i2v-480p-distill")
+    # Model path: Network Volume mounted at /lightx2v-models
+    model_path = os.environ.get("MODEL_PATH", "/lightx2v-models/models/wan2.1-i2v-480p-distill")
 
     pipe = LightX2VPipeline(
         model_path=model_path,
