@@ -1,0 +1,8 @@
+{
+    "input": {
+        "prompt": "a beautiful woman smiling and waving her hand gently",
+        "negative_prompt": "blurry, low quality, distorted",
+        "image_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800",
+        "seed": 42
+    }
+}
